@@ -1,0 +1,201 @@
+/*Common elements*/
+body {
+    background-color: moccasin;
+    padding: 0;
+    margin: 0;
+    background-size: 100% 100%;
+}
+
+div.clear {
+    clear:both;
+    font-size: 1%;
+}
+
+/*Header*/
+
+header h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkgreen;
+    font-size: 60pt;
+    letter-spacing: -0.025em;
+    margin: 0;
+    padding-left: 20px;
+    background-color: lightgreen;
+    /*text-shadow: 1px 2px 0 #bd8437; offset-x | offset-y | blur-radius | color */
+}
+
+#infoList {
+    font-size: 10pt color darkgreen;
+    float:right;  
+    margin-right: 4em; 
+    padding-left: 2em; 
+}
+
+nav#utilityMenu {
+    float: right;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 2px;
+    margin-top: 0px;
+}
+
+
+.topbutton {
+    height: 50px;
+    width: 200px;
+}
+
+nav {
+    color: yellow;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0 ;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: #c54322;
+    padding: 0.3em 0.5em;
+}
+nav li a:hover {
+    color: C54322;
+    background-color: rgba(252,251,243,0.75);
+}
+
+/*Sidebar*/
+
+sidebar ul {
+    list-style: none;
+}
+
+.sidebutton {
+    height: 70px;
+    width: 130px;    
+    border: 2px color darkred;
+    background-color: lightcoral;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 6px 2px;
+}
+
+#sidebar {
+    width: 150px;
+    height: 550px;
+    float: right;
+    position: relative;
+    display: block;
+    background-color: #fff;
+    padding-left: 1em;
+    padding-right: 5.5em;
+    border-left: #28A967 solid 5px;
+}
+
+#sidebar ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+#coffee {
+    width: 100px;
+    height: 220px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+/*Main*/
+
+.prodBox {
+    display: inline-block;
+    list-style: none;
+    padding-left: 4em;
+    margin-left: 1em;
+    float: left;
+    z-index: 2;
+}
+
+
+#stocker {
+    width: 175px;
+    height: 350px;
+    float: left;
+    object-fit: cover;
+    border-radius: .4em;
+    padding-top: 10em;
+    margin-left: -10em;
+}
+
+#fruitstand {
+    width: 900px;
+    height: 550px;
+    float: left;
+    object-fit: cover;
+    border-radius: .4em;
+    margin-right: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    z-index: 1;
+}
+
+#toBuy {
+    height: 100px;
+    width: 140px;
+    Background-color: lightgreen;
+    font-weight: bold color darkred;
+    float: left;
+    padding-left: 2em;
+    object-fit: cover;
+    position: relative;
+    margin-left: 3em;
+    text-align: center;
+}
+
+/*Footer*/
+
+footer {
+    background-color: goldenrod;
+    height: 15px;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 2.0em;
+    padding-bottom: 5em;
+}
+
+footer ul#menufooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.7em;
+}
+
+footer a, footer a:visited {
+    color: #fff;
+    text-decoration: none;
+    }
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
